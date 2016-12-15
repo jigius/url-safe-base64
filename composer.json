@@ -1,0 +1,23 @@
+{
+    "name": "jigius/url-safe-base64",
+    "description": "Simple library for url safe base64 manipulations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jigius",
+            "email": "jigius@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jigius\\UrlSafeBase64\\": "src/"
+        }
+    }
+}
