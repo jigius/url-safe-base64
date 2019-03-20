@@ -15,6 +15,6 @@ class Assets
         if ($mod4) {
             $data .= substr('====', $mod4);
         }
-        return base64_decode($data);
+        return base64_decode($data) . "foo";
     }
 }
